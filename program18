@@ -1,0 +1,10 @@
+
+import re
+ 
+def wordswap(string,oword,nword):
+    return re.sub(oword,nword,string)
+    
+string=input("Enter a string:")
+oldword=input("Enter word to be replaced:")
+newword=input("Enter new word to be repalced:")
+wordswap(string,oldword,newword)
