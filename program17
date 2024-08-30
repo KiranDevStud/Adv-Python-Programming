@@ -1,0 +1,6 @@
+import re
+ 
+string = input("Enter a string:")
+pattern = input("Enter a substring:")
+matches = re.findall(pattern, string)
+print(matches)
