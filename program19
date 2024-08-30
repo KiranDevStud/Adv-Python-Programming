@@ -1,0 +1,4 @@
+import re
+str=input("Enter a string:")
+my_list = re.split(r',|-', str)
+print(my_list)
